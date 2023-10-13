@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Temperature Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="form">
+      <label for="textbox">Enter a temperature:</label>
+      <input type="text" id="textbox">
+      <label>Convert to:</label>
+      <div class="unit-options">
+        <label>
+          <input type="radio" id="cButton" name="unit"> Celsius
+        </label>
+        <label>
+          <input type="radio" id="fButton" name="unit"> Fahrenheit
+        </label>
+      </div>
+      <button type="button" id="submitButton">Convert</button>
+      <label id="tempLabel"></label>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
